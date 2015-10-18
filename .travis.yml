@@ -12,9 +12,8 @@ env:
     - secure: "bZGmljQkbOa0jItu/Jm5sIb2gRpU1moBjDB1aV4TW7Dq3hdpR3r7PqEtBMUdltX4AmolCvUnvmb3y4zWXW78YKv1z0rslHvjZyAmPG3iU/sQBu6Dkaz+Ln2ltx4HTUC65z/X7plC59hzi4Zsea/5TNmbW5jM+YKx7HFS/9G8ak2owo1GLVSaa7VwIF1q1Sik61QwFu3c/T+fLzuPck7ZA3ga3txOn8l6D1c+HkfRnsN/0AFxtqwZ/0aRKEvZo7p2JXFl+Yl+cXxv4Mj69G67W1u6RjzUT/+RwqIVXlKHbi3W8DR9LyYqgrk0qKQRa8pP1i/SBRVGJ9uTEiBdgUvRg+crNop+Yg8aQkexvaGKWJhSvH6F8aj11xqz8gxhdGpDl8/bMwDGaQYGyYc0qjSKtEvfHPy5arxxuXR2s8z21ewYyI3ARNfniObETd0wdQjpnnLlT9GgCyCzZsrwHlic7vsx0x68qrPdVXLKfFZL3YnIdKac/XYJqsrk2LA4mUUYH6q4zYSJOVeWHn/VOadtpoi8PQ4s/qiScAqTsNrdqTJ6CYnsT7qZ5RnpxWGZPOk9OaFB/VnwgeWieKowYu8NhUiWZKc/OM0XfCW6FmlU4RR2FXucgN1QiVbHxLHkhAfMrBiYE9t8xMpVaQ6rZj1OW7qFPH0UTp3rpjqb7eZTURI="
 
 before_script:
-    - git clone --quiet https://github.com/cncgl/unreadable.git.git build
     - npm install
-    - pushd build
+    - pushd dist
     - git checkout -b gh-pages
     - popd
 
