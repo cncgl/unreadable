@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cncgl/unreadable.svg?branch=master)](https://travis-ci.org/cncgl/unreadable)
+
 React Redux Starter Kit
 =======================
 [![Build Status](https://travis-ci.org/davezuko/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/davezuko/react-redux-starter-kit?branch=master)
